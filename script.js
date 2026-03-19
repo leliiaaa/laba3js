@@ -11,12 +11,12 @@ for (var i = 0; i < names.length; i++) {
   }
 }
 
-  console.log("Names ending with letter A ");
+  console.log("Names ending with letter L ");
     for (var i = 0; i < names.length; i++) {
 
         var lastLetter = names[i].charAt(names[i].length - 1).toLowerCase();
 
-        if (lastLetter === "a") {
+        if (lastLetter === "l") {
             console.log(names[i]);
         }
     }
